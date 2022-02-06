@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabel</title>
+</head>
+<body>
+    <script>
+    {
+        //deklarasi variabel dahulu
+        let fullName;
+        let firstName;
+        let lastName;
+
+        firstName = "Riyan";
+        lastName = "Hidayat";
+        fullName = "Riyan " + "Hidayat";
+
+        document.writeln(firstName);
+        document.writeln("<br>")
+        document.writeln(lastName);
+        document.writeln("<br>")
+        document.writeln(fullName);
+        document.writeln("<br>")
+    }
+
+    {
+        //variabel langsung dengan value
+        let firstName = "Riyan";
+        let lastName = "Hidayat";
+        let fullName = "Riyan" + " " + "Hidayat";
+
+        document.writeln(firstName);
+        document.writeln("<br>")
+        document.writeln(lastName);
+        document.writeln("<br>")
+        document.writeln(fullName);
+        document.writeln("<br>")
+
+        fullName = "Riyan" + " " + "Tori";
+        document.writeln(fullName);
+        document.writeln("<br>")
+        document.writeln(fullName);
+        document.writeln("<br>")
+
+        /*sejak ecmascript 6 var tidak direkomendasikan lagi
+        sebaiknya menggunakan let dan const untuk variabel.
+        let untuk variabel yg bisa dirubah2 valuenya,
+        sedangkan const untuk variabel yang valuenya tidak dirubah.
+        */
+
+    }
+        
+        
+
+    </script>
+</body>
+</html>
