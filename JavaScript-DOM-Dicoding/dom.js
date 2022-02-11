@@ -30,3 +30,14 @@ for (button of buttonBaru) {
     console.log(button.childNodes[0])
     button.childNodes[0].style.borderRadius = "10px";
 }
+
+const newElement = document.createElement("li");
+newElement.innerText = "Belajar Pemerogaman Mandiri"
+console.log(newElement)
+const daftar = document.getElementById("daftar");
+daftar.appendChild(newElement);
+
+const elementAwal = document.createElement("li");
+elementAwal.innerText = "Belajar dari Youtube";
+const itemAwal = document.getElementById("awal");
+daftar.insertBefore(elementAwal, itemAwal);
